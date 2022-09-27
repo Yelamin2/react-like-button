@@ -6,7 +6,7 @@ import {useState} from 'react';
 
 function App(){
 
-  const LikeButtonComponent = () =>{
+  const LikeButton = () =>{
     const [like, setLike] =useState(0),
     onLikeButtonClick = () => {
       setLike(like +1);
@@ -21,7 +21,7 @@ function App(){
       </div>
     );
   }
-  return LikeButtonComponent();
+  return LikeButton();
     
   
 
